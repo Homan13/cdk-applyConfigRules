@@ -1,0 +1,21 @@
+{
+  "name": "cdk-apply_config_rules",
+  "version": "0.1.0",
+  "bin": {
+    "cdk-apply_config_rules": "bin/cdk-apply_config_rules.js"
+  },
+  "scripts": {
+    "test": "tsc",
+    "test:watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/node": "8.10.45",
+    "typescript": "^3.3.3333",
+    "aws-cdk": "^0.36.0"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "^0.36.0",
+    "source-map-support": "^0.5.9"
+  }
+}
