@@ -4,6 +4,8 @@
 require('source-map-support/register');
 const cdk = require('@aws-cdk/core');
 const { CdkApplyConfigRulesMgmtStack } = require('../lib/cdk-apply_config_rules_mgmt-stack');
+const { CdkApplyConfigRulesIAMStack } = require('../lib/cdk-apply_config_rules_iam-stack');
 
 const app = new cdk.App();
 new CdkApplyConfigRulesMgmtStack(app, 'CdkApplyConfigRulesMgmtStack');
+new CdkApplyConfigRulesIAMStack(app, 'CdkApplyConfigRulesIAMStack');
